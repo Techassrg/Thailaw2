@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - Thai Law Firm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">⚖️</span>
+                    <span class="logo-text">ThaiLaw</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                    <li><a href="services.html">บริการ</a></li>
+                    <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" title="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>ติดต่อเรา</h1>
+            <p>เราพร้อมให้คำปรึกษาและบริการ</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>ข้อมูลติดต่อ</h2>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">📍</div>
+                            <div>
+                                <h3>ที่อยู่</h3>
+                                <p>123 ถนนสุขุมวิท<br>แขวงคลองตัน เขตคลองตัน<br>กรุงเทพมหานคร 10110</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">📞</div>
+                            <div>
+                                <h3>โทรศัพท์</h3>
+                                <p>02-123-4567<br>02-123-4568</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">📧</div>
+                            <div>
+                                <h3>อีเมล</h3>
+                                <p>info@thailaw.com<br>contact@thailaw.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">🕐</div>
+                            <div>
+                                <h3>เวลาทำการ</h3>
+                                <p>จันทร์ - ศุกร์: 09:00 - 18:00<br>เสาร์: 09:00 - 12:00<br>อาทิตย์: ปิดทำการ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <h2>ส่งข้อความถึงเรา</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">ชื่อ-นามสกุล *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">อีเมล *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">เบอร์โทรศัพท์</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">หัวข้อ *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ข้อความ *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>ส่งข้อความ</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR Code Section -->
+    <section class="qr-section">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-label">ติดต่อเราผ่าน</span>
+                <h2 class="section-title">QR Code</h2>
+            </div>
+            <div class="qr-grid">
+                <div class="qr-card">
+                    <img src="../ThailawandACC/images/LQR.jpg" alt="Line QR Code" class="qr-image">
+                    <h3>Line QR Code</h3>
+                    <p>สแกนเพื่อเพิ่มเพื่อนใน Line</p>
+                </div>
+                <div class="qr-card">
+                    <img src="../ThailawandACC/images/WEQR.jpg" alt="WeChat QR Code" class="qr-image">
+                    <h3>WeChat QR Code</h3>
+                    <p>สแกนเพื่อเพิ่มเพื่อนใน WeChat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <div class="map-placeholder">
+                <div class="map-icon">🗺️</div>
+                <p>แผนที่</p>
+                <p class="map-address">123 ถนนสุขุมวิท กรุงเทพฯ 10110</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚖️</span>
+                        <span class="logo-text">ThaiLaw</span>
+                    </div>
+                    <p>สำนักงานกฎหมายที่เชื่อถือได้ พร้อมให้บริการทางกฎหมายครบวงจร</p>
+                </div>
+                <div class="footer-section">
+                    <h4>ลิงก์ด่วน</h4>
+                    <ul>
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="services.html">บริการ</a></li>
+                        <li><a href="contact.html">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>ติดต่อเรา</h4>
+                    <ul>
+                        <li>📧 info@thailaw.com</li>
+                        <li>📞 02-123-4567</li>
+                        <li>📍 123 ถนนสุขุมวิท กรุงเทพฯ 10110</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ThaiLaw. สงวนลิขสิทธิ์</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
